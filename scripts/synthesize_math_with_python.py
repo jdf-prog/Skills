@@ -44,6 +44,7 @@ generate(
     # dependent_jobs=M will schedule this many dependent jobs on Slurm
     # (useful if your cluster has a fixed timeout per job)
     # set these according to your cluster configuration
-    # num_chunks=N,
-    # dependent_jobs=M,
+    num_chunks=8,
+    dependent_jobs=2,
+    num_random_seeds=4,
 )
