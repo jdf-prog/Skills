@@ -45,7 +45,7 @@ generate(
     # (useful if your cluster has a fixed timeout per job)
     # set these according to your cluster configuration
     num_chunks=2,
-    dependent_jobs=1,
-    starting_seed=2,
-    num_random_seeds=1,
+    dependent_jobs=4,
+    starting_seed=4,
+    num_random_seeds=4,
 )
