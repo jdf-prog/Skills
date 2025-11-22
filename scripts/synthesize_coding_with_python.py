@@ -46,6 +46,6 @@ generate(
     # set these according to your cluster configuration
     num_chunks=2,
     dependent_jobs=4,
-    starting_seed=4,
-    num_random_seeds=4,
+    starting_seed=8,
+    num_random_seeds=24,
 )
